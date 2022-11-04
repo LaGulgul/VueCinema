@@ -47,7 +47,25 @@ body {
     color: var(--w);
     transition: 0.3s;
 }
-.btn:hover{
+
+.btn:hover {
     background: var(--or);
     color: var(--bl);
+}
+
+.title {
+    display: flex;
+    align-items: center;
+}
+
+.title__h {
+    padding-bottom: 10px 0;
+    border-bottom: 2px solid var(--or);
+    text-transform: capitalize;
+    font-family: var(--cr);
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 40px;
+    color: var(--or);
+
 }
