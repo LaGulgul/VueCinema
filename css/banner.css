@@ -48,3 +48,32 @@ margin-bottom: 55px;
     align-items: center;
     gap: 30px;
 }
+@media screen and (max-width:630px) {
+    .banner__h{
+        font-size: 46px;
+    }
+    .banner__p{
+        font-size: 15px;
+        margin-bottom: 45px;
+    }
+}
+@media screen and (max-width:460px) {
+    .banner__h{
+        font-size: 38px;
+    }
+}
+@media screen and (max-width:420px) {
+    .banner__h{
+        font-size: 34px;
+    }
+    .banner__links{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+}
+@media screen and (max-width:360px){
+.banner__h{
+    font-size: 31px;
+}
+}
